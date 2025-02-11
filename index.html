@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Title</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    
+    <body>
+        <h1>Title</h1>
+<br />
+        <section>
+        <h2>Dedication</h2>
+        <p>Lorem ipsum odor amet, consectetuer adipiscing elit.</p>
+        </section>
+<br />        
+        
+        <section>
+        <h2>Table of Contents</h2>
+        <ul>
+            <li>Introduction</li>
+            <li>Chapter 1</li>
+            <li>Chapter 2</li>
+            <li>Chapter 3</li>
+            <li>Chapter 4</li>
+            <li>Chapter 5</li>
+            <li>Chapter 6</li>
+            <li>Chapter 7</li>
+            <li>Chapter 8</li>
+            <li>Chapter 9</li>
+            <li>Chapter 10</li>
+        </ul>
+        </section>
+<br />
+
+<section>
+  <div class="intro">
+  <h2>Introduction</h2>
+  <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Penatibus condimentum sociosqu pulvinar ultrices class sit enim nibh cursus ut id cubilia lectus tempus non velit convallis primis curabitur netus suspendisse hac rutrum sapien ornare lobortis erat libero volutpat sociosqu sollicitudin sagittis nulla curae sollicitudin sagittis neque mauris </p>
+  <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Penatibus condimentum sociosqu pulvinar ultrices class sit enim nibh cursus ut id cubilia lectus tempus non velit convallis primis curabitur netus suspendisse hac rutrum sapien ornare lobortis erat libero volutpat sociosqu sollicitudin sagittis nulla curae sollicitudin sagittis neque mauris </p>
+  </div>
+  
+<br />
+
+<div class="chapter">
+<button type="button" class="collapsible">Chapter 1</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+</div>
+
+<br />
+
+<div class="chapter">
+<button type="button" class="collapsible">Chapter 2</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+</div>
+
+<br />
+  
+<div class="chapter">
+<button type="button" class="collapsible">Chapter 3</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+</div>
+
+<br />
+  
+<div class="chapter">
+<button type="button" class="collapsible">Chapter 4</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+</div>
+
+<br />
+  
+<div class="chapter">
+<button type="button" class="collapsible">Chapter 5</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+</div>
+
+<br />
+  
+<div class="chapter">
+<button type="button" class="collapsible">Chapter 6</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+</div>
+
+<br />
+  
+<div class="chapter">
+<button type="button" class="collapsible">Chapter 7</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+</div>
+
+<br />
+  
+<div class="chapter">
+<button type="button" class="collapsible">Chapter 8</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+</div>
+
+<br />
+  
+<div class="chapter">
+<button type="button" class="collapsible">Chapter 9</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+</div>
+
+<br />
+  
+<div class="chapter">
+<button type="button" class="collapsible">Chapter 10</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+</div>
+
+<br />
+    
+    
+    
+</section>
+ 
+ 
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+    
+<!--Comments here -->
+<!--Comments here -->
+<!--Comments here -->        
+    </body>
+</html>
