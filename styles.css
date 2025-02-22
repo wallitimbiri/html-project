@@ -3,6 +3,7 @@
     color: white;
     font-family: verdana;
     text-align: center;
+    margin: 1%;
     padding: 5%;
     scroll-behavior: smooth;
 }
@@ -10,9 +11,7 @@ body {
     border: 1px solid grey;
     border-radius: 10px;
     float: right;
-    width: auto;
-    height: auto;
-    max-width: 800px;
+    max-width: 400px;
     min-width: 300px;
 }
 h1 {
@@ -25,49 +24,58 @@ h2 {
     border: 1px solid grey;
 }
 p {
-    padding: 0%;
+    padding: 1%;
     text-align: left;
-    font-size: 13px;
+    font-size: 100%;
+    height: auto;
 }
 .dedication {
     border: 1px solid grey;
-    padding: 1%;
+    padding: 5%;
     text-align: left;
 }
 .quotation {
     border: 1px solid grey;
-    width: 80%;
     padding: 10%;
 }
 .quote {
     border: 1px solid grey;
+    padding: 5%;
 }
 ul {
     border: 1px solid grey;
     padding: 0%;
-    width: 100%;
     list-style-type: none;
 }
 li {
     border: 1px solid grey;
     padding: 5% 0%;
-    width: 100%;
     text-align: left;
+    font-size: 100%;
+    font-weight: bold;
 }
 .intro {
     padding: 0%;
 }
-.chapter {
+.chapters {
+    border: 1px solid grey;
     padding: 0%;
+}
+.chapter {
+    border: 1px solid grey;
+    margin: 0%;
+    padding: 0%;
+    height: auto;
 }
 
 .collapsible {
     border: none;
-    padding:0%;
+    margin: 0%;
+    padding: 5% 2%;
     cursor: pointer;
     width: 100%;
     text-align: left;
-    font-size: 20px;
+    font-size: 133%;
     font-weight: bold;
 }
 
@@ -76,7 +84,8 @@ li {
 }
 
 .content {
-    padding: 0%;
+    margin: 0%;
+    padding: 0% 1%;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
