@@ -14,12 +14,14 @@ body {
     max-width: 700px;
     min-width: 300px;
 }
+section {
+    border: 1px solid grey;
+    margin: 0%;
+    padding: 0%;
+}
 h1 {
     border: 1px solid grey;
     font-size: 200%;
-}
-section {
-    border: 1px solid grey;
 }
 h2 {
     border: 1px solid grey;
@@ -36,7 +38,7 @@ p {
     padding: 10%;
     text-align: left;
 }
-.text {
+.dedicated {
     border: 1px solid grey;
     padding: 10%;
 }
@@ -55,16 +57,16 @@ ul {
 }
 li {
     border: 1px solid grey;
-    padding: 5% 0%;
+    padding: 3% 0%;
     text-align: left;
     font-size: 100%;
-    font-weight: bold;
 }
 li>a {
+    padding: 1%;
     text-decoration: none;
 }
 li>a:visited {
-    color: slategrey;
+    color: white;
 }
 li>a:hover {
     color: dimgrey;
@@ -74,11 +76,9 @@ li>a:active {
     color: white;
 }
 .intro {
-    border: 1px solid grey;
     padding: 0%;
 }
 .chapters {
-    border: 1px solid grey;
     padding: 0%;
 }
 .chapter {
