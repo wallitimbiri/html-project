@@ -11,17 +11,19 @@ body {
     border: 1px solid grey;
     border-radius: 10px;
     float: right;
-    max-width: 400px;
+    max-width: 700px;
     min-width: 300px;
 }
 h1 {
     border: 1px solid grey;
+    font-size: 200%;
 }
 section {
     border: 1px solid grey;
 }
 h2 {
     border: 1px solid grey;
+    font-size: 150%;
 }
 p {
     padding: 1%;
@@ -31,8 +33,12 @@ p {
 }
 .dedication {
     border: 1px solid grey;
-    padding: 5%;
+    padding: 10%;
     text-align: left;
+}
+.text {
+    border: 1px solid grey;
+    padding: 10%;
 }
 .quotation {
     border: 1px solid grey;
@@ -40,7 +46,7 @@ p {
 }
 .quote {
     border: 1px solid grey;
-    padding: 5%;
+    padding: 10%;
 }
 ul {
     border: 1px solid grey;
@@ -54,7 +60,21 @@ li {
     font-size: 100%;
     font-weight: bold;
 }
+li>a {
+    text-decoration: none;
+}
+li>a:visited {
+    color: slategrey;
+}
+li>a:hover {
+    color: dimgrey;
+    text-decoration: underline;
+}
+li>a:active {
+    color: white;
+}
 .intro {
+    border: 1px solid grey;
     padding: 0%;
 }
 .chapters {
@@ -75,7 +95,7 @@ li {
     cursor: pointer;
     width: 100%;
     text-align: left;
-    font-size: 133%;
+    font-size: 125%;
     font-weight: bold;
 }
 
