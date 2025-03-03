@@ -16,7 +16,6 @@ body {
 }
 section {
     border: 1px solid grey;
-    margin: 0%;
     padding: 0%;
 }
 h1 {
@@ -35,20 +34,15 @@ p {
 }
 .dedication {
     border: 1px solid grey;
-    padding: 10%;
-    text-align: left;
-}
-.dedicated {
-    border: 1px solid grey;
-    padding: 10%;
+    margin: 1% 10%;
+    padding: 0% 0%;
 }
 .quotation {
     border: 1px solid grey;
-    padding: 10%;
-}
-.quote {
-    border: 1px solid grey;
-    padding: 10%;
+    margin: 10% 15%;
+    padding: 10% 10%;
+    display: flex;
+    justify-content: center;
 }
 ul {
     border: 1px solid grey;
