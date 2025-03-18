@@ -4,7 +4,7 @@
     font-family: verdana;
     text-align: center;
     margin: 1%;
-    padding: 5%;
+    padding: 1%;
     scroll-behavior: smooth;
 }
 body {
@@ -13,20 +13,29 @@ body {
     float: right;
     max-width: 700px;
     min-width: 300px;
+    margin: 1%;
+    padding: 2% 0%;
 }
 section {
     border: 1px solid grey;
+    margin: 2% 5%;
     padding: 0%;
 }
 h1 {
-    border: 1px solid grey;
+    border: none;
     font-size: 200%;
+    margin: 0%;
+    padding: 5%;
 }
 h2 {
     border: 1px solid grey;
+    margin: 1%;
+    padding: 5%;
     font-size: 150%;
 }
 p {
+    border: none;
+    margin: 1%;
     padding: 1%;
     text-align: left;
     font-size: 100%;
@@ -35,28 +44,31 @@ p {
 .dedication {
     border: 1px solid grey;
     margin: 1% 10%;
-    padding: 0% 0%;
+    padding: 1% 1%;
 }
 .quotation {
     border: 1px solid grey;
-    margin: 10% 15%;
-    padding: 10% 10%;
+    margin: 5% 15%;
+    padding: 5% 5%;
     display: flex;
     justify-content: center;
 }
 ul {
-    border: 1px solid grey;
+    border: none;
+    margin: 1%;
     padding: 0%;
     list-style-type: none;
 }
 li {
     border: 1px solid grey;
-    padding: 3% 0%;
+    margin: 1% 0%;
+    padding: 2% 2%;
     text-align: left;
     font-size: 100%;
 }
 li>a {
-    padding: 1%;
+    margin: 0%;
+    padding: 0%;
     text-decoration: none;
 }
 li>a:visited {
@@ -70,9 +82,11 @@ li>a:active {
     color: white;
 }
 .intro {
-    padding: 0%;
+    margin: 0%;
+    padding: 1% 0%;
 }
 .chapters {
+    margin: 1%;
     padding: 0%;
 }
 .chapter {
@@ -85,10 +99,10 @@ li>a:active {
 .collapsible {
     border: none;
     margin: 0%;
-    padding: 5% 2%;
+    padding: 4%;
     cursor: pointer;
     width: 100%;
-    text-align: left;
+    text-align: right;
     font-size: 125%;
     font-weight: bold;
 }
@@ -99,7 +113,7 @@ li>a:active {
 
 .content {
     margin: 0%;
-    padding: 0% 1%;
+    padding: 0%;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
