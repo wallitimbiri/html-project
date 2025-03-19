@@ -35,7 +35,7 @@ h2 {
 }
 p {
     border: none;
-    margin: 0%;
+    margin: 1%;
     padding: 1%;
     text-align: left;
     font-size: 100%;
@@ -49,8 +49,9 @@ p {
 }
 .quotation {
     border: 1px solid grey;
-    margin: 5% 10% 5% 10%;
-    padding: 5%;
+    width: 60%;
+    margin: 5% 20%;
+    padding: 5% 0%;
 }
 .quotation-text {
     border: none;
